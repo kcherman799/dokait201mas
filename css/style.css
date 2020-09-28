@@ -1,0 +1,369 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	font-size: 1.3em;
+	background-color: #f7f7f7;
+	color: blueviolet;
+	font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif';
+	line-height: 120%;
+}
+
+/* Стили для общего контенера */
+#pade {
+	min-height: 86.6%;
+	margin-bottom: -20px;
+}
+
+/* Стили для общего контенера, после шабки */
+#pade:after {
+	display: block;
+	content: "";
+}
+
+/* Стили для шабки и фотура */
+header, footer {
+	width: 100%;
+	background-color: silver;
+	min-height: 100px;
+}
+
+/* Стили для шабки */
+header {
+	border-bottom: 2px solid #7A3C3D;
+}
+
+/* Стили для фото логотипа */
+img {
+	max-width: 50%;
+	padding: 10px;
+	height: auto;
+	height: auto\9;
+}
+
+/* Стили для логотипа */
+.logo div {
+	 position: absolute;
+	 top: 15px;
+	 width: 520px;
+	 margin-left: 45%;
+	 
+}
+
+/* Стили для навигации */
+nav {
+	position: absolute;
+	top: 110px;
+	left: 35%;
+	padding-left: 10px;
+}
+
+/* Стили для стилей навигации */
+nav > li {
+	display: inline-block;
+	padding-left: 7px;
+	list-style-type: none;
+	
+}
+
+/* Стили для меню второго уровня */
+.sub_menu {
+	position: absolute;
+	list-style-type: none;
+	background-color: silver;
+	border-radius: 5px;
+	padding: 3px;
+	display: none;
+	margin-top: -1px;
+}
+
+/* Стили для текущий странице */
+.home {
+	background-color: blueviolet;
+	color: #000;
+}
+
+/* Стили для ccылок */
+a {
+	color: royalblue;
+	text-decoration: none;
+	transform: all 8s ease;
+	-moz-transform: all 8s ease;
+	-webkit-transform: all 8s ease;
+	-ms-transform: all 8s ease;
+	-o-transform: all 8s ease;
+}
+
+/* Стили для навиденной ccылке */
+a:hover {
+	color: orangered;
+	text-decoration: none;
+	transform: all 8s ease;
+	-moz-transform: all 8s ease;
+	-webkit-transform: all 8s ease;
+	-ms-transform: all 8s ease;
+	-o-transform: all 8s ease;
+}
+
+/* Стили для активной ссылки */
+a:activ {
+	color: silver;
+	text-decoration: none;
+	transform: all 8s ease;
+	-moz-transform: all 8s ease;
+	-webkit-transform: all 8s ease;
+	-ms-transform: all 8s ease;
+	-o-transform: all 8s ease;
+}
+
+/* Стили для линии основого раздела */
+.Main_section{
+	color: #666;
+	text-align: center;
+	font-size: 1.4em;
+}
+
+/* Стили для линии основого раздела */
+.Main_section hr {
+	width: 400px;
+	max-width: 100%;
+	margin-top: 5px;
+	margin-left: 40%;
+	margin-bottom: 10px;
+	
+}
+
+/* Стили для всех линий */
+hr {
+	display: block;
+	border: 0;
+	height: 1px;
+	border-top: 1px solid #ccc;
+	padding: 0px;
+}
+
+/* Стили для основного контенера */ 
+.Pagehome {
+	width: 100%;
+	margin-top: 20px;
+}
+
+/* Стили для основного блока */ 
+.Pagehome .MainBlock {
+	width: 80%;
+	margin-left: 10%;
+}
+
+/* Стили для статьей */ 
+.Pagehome .MainBlock article {
+	float: left;
+	display: inline-block;
+	width: 27%;
+	border: 1px solid silver;
+	border-radius: 5px;
+	background-color: #fafafa;
+	margin-right: 5%;
+	min-height: 100px;
+	box-sizing: border-box;
+	margin-bottom: 30px;	
+}
+
+/* Стили для фото статьей */ 
+.Pagehome .MainBlock article img {
+	max-width: 100%;
+	height: 200px;
+	border-radius: 5px 5px 0 0;
+	border-bottom: 1px solid silver;
+	box-sizing: border-box;
+	margin-left: 20%;
+}
+
+/* Стили для заголовков статьей */ 
+.Pagehome .MainBlock article h2 {
+	width: 90%;
+	margin-left: 5%;
+	font-weight: normal;
+	font-size: 1.4em;
+	color: #4a4a4a;
+}
+
+/* Стили для текста статьей */ 
+.Pagehome .MainBlock article p {
+	width: 80%;
+	margin-left: 10%;
+	text-indent: 1em;
+}
+
+/* Стили для ссылке статьей */ 
+.Pagehome .MainBlock article a {
+	padding: 10px 5px;
+	background-color: #ed7b7b;
+	margin-left: 5%;
+	border-radius: 5px;
+	color: #fff;
+	margin: 10px;
+	float: left;
+}
+
+/* Стили для центрального блока  */
+#center_main {
+	width: 100%;
+	margin: 10px 0 15px;
+	padding: 0;
+	border-top: 2px solid silver;
+	border-bottom: 2px solid silver;
+	background: url(../img/bg.jpg) no-repeat center;
+	height: 600px;
+	clear: both;
+}
+
+/* Стили для контента центрального блока  */
+#center_main_in {
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #F7F7F6;
+	opacity: 0.8;
+}
+
+/* Стили для текста центрального блока  */
+#center_main_in p {
+	padding: 4px 0;
+	font-weight: 700;
+}
+
+/* Стили для рамок формы центрального блока  */
+#center_main_in fieldset {
+	padding-bottom: 4px;
+	font-weight: normal;
+}
+
+
+/* стили для навигации постов */
+.Navig {
+	clear: both;
+	margin-left: 15px;
+}
+
+.Navig a, .Navig span {
+	margin-left: 7px;
+}
+
+.Navig a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/* Общее стили для страницы "Статья" */
+/* стили для фото статье */
+#newimg {
+	width: 600px;
+	margin-left: 25%;
+
+}
+
+/* стили для заголовка статье */
+#Harticle {
+	font-weight: bold;
+	margin-left: -300px;
+}
+
+/* стили для даты статье */
+#Date_time {
+	margin-left: 85%;
+	margin-bottom: 5px;
+}
+
+/* Общее стили для страницы "О нас" */
+.about_block {
+	width: 100%;
+	background-color: #fafafa;
+	border: 1px solid silver;
+	border-radius: 5px;
+	box-sizing: border-box;
+	padding: 1%;
+}
+
+/* Стили для заголовках страницы "О нас" */
+.about_block h2 {
+	color: #666;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: normal;
+	margin-bottom: 5px;
+}
+
+/* Стили для абзацев страницы "О нас" */
+.about_block p {
+	margin-bottom: 5px;
+}
+
+/* Стили для ссылок страницы "Абитуриенты" */
+.about_block ol {
+	padding-left: 15px;
+}
+
+/* Стили для ссылок страницы "Абитуриенты" */
+.about_block ul {
+	padding-left: 15px;
+}
+
+/* Стили для абзацев страницы "О нас" */
+.about_block span {
+	padding-left: 1em;
+}
+
+/* Общие стили для общего контенера, после шабки и футора */
+footer, #pade:after {height: 120px;}
+
+/* Стили для Футора */
+footer {
+	position: relative;
+	border-top: 2px solid #7A3C3D;
+	margin-top: 20px;
+	clear: both;
+}
+
+/* Стили для соц сетий */
+.contact {
+	margin-top: 10px;
+	width: 200px;
+	text-align: center;
+	float: right;
+	
+}
+
+/* Стили для фото соц сетий */
+.contact img {
+	width: 25%;
+	margin-top: -15px;
+	padding: 10px;
+	height: auto;
+	height: auto\9;
+}
+
+/* Стили для facebook */
+#fb {
+	position: relative;
+	top: 7.5px;
+}
+
+/* Стили для авторних прав */
+#avtor {
+	position: relative;
+	bottom: 8px;
+	text-align: center;
+	clear: both;
+}

@@ -1,0 +1,307 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	opacity: 1;
+	text-decoration: none;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background-color: aqua;
+}
+
+
+.clear {
+	clear: both
+}
+
+/* Стилы для шапки*/
+header {
+	height: 250px;
+	background-color: #5EA556;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 35px;
+	color: #BA2D2D;
+}
+
+#End {
+	width: 110px;
+	height: 40px;
+	margin-top: 25px;
+	margin-right: 180px;
+	float: right;
+	background-color: #B59250;
+	border-radius: 7px;
+	color: #fff;
+	font-size: 22px;
+	border: none;
+}
+
+#End:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+#MainMenu {
+	margin-left: 20%;
+	display: inline-block;
+	padding: 27px 70px;
+	background-color: #C2B972;
+	width: 730px;
+	height: 25px;
+		
+}
+
+#MainMenu>a {
+	color: #fff;
+	font-size: 24px;
+	padding-right: 30px;
+	
+}
+
+#MainMenu>a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.Home {
+	text-decoration: underline;
+}
+
+/* Стили для основного блока*/
+.MainBlock {
+	position: relative;
+	margin: 0 20%;
+	min-height: 410px;
+	background-color: #B6A7F4;
+	border-radius: 50px;
+	padding-top: 85px;
+	padding-left: 100px;
+	padding-bottom: 15px;
+}
+
+.width {
+	min-width: 1200px;
+}
+
+.SetBlock {
+	display: inline-block;
+	width: 300px;
+	background-color: #D2D59E;
+	margin-right: 170px;
+	padding-bottom: 10px;
+	
+}
+
+.SetBlock>p {
+	text-align: center;
+	border-bottom: 3px solid #707070;
+	font-size: 22px;
+	padding: 10px 40px;
+}
+
+.SetBlock>a {
+	display: block;
+	padding: 7px 10px;
+	text-decoration: underline;
+}
+
+.SetBlock>a:hover {
+	cursor: pointer;
+}
+
+#Center {
+	margin-top: 35px;
+	margin-left: 25%;
+	width: 300px;
+}
+
+/* Стили для блока с доп настройками */
+#SubDiv {
+	min-width: 600px;
+	min-height: 270px;
+	margin-top: -40px;
+	margin-left: 110px;
+}
+
+#SubDiv>p {
+	text-align: center;
+	border-bottom: 2px solid #707070;
+	font-size: 28px;
+	padding: 10px 40px;
+}
+
+#SubDiv>a {
+	display: block;
+	padding: 12px 10px 7px;
+	text-decoration: underline;
+	color: #0F485C;
+	font-size: 24px;
+}
+
+/* Стили для блока с формор с редактирование*/
+form {
+	margin-top: 15px;
+}
+
+label {
+	font-size: 24px;
+	color: #0F485C;
+}
+
+input {
+	width: 260px;
+	height: 25px;
+	font-size: 18px;
+	padding-left: 2px;
+}
+
+#Text {
+	text-align: center;
+	padding-top: 40px;
+	font-size: 24px;
+	color: #0F485C;
+}
+
+.jHtmlArea {
+	resize: none;
+	background-color: #ffffff;
+}
+
+#send {
+	margin-left: 35%;
+	margin-top: 20px;
+	min-width: 225px;
+	height: 50px;
+	background-color: #B5751D;
+	opacity: 0.9;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 18px;
+}
+
+
+#messageError {
+	color: #cf720e; 
+	font-size: 22px;
+	text-align: center;
+}
+
+#send:hover, button:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/* Стили для блока со таблицей */
+table {
+	width: 950px;
+	margin-top: 15px;
+	margin-left: -80px;
+	border: 2px solid;
+	border-collapse: collapse;
+	
+}
+
+th {
+	font-size: 22px;
+	text-align: center;
+	border: 3px solid;
+	padding: 15px 10px;
+	background-color: #FEFECC;
+}
+
+td {
+	min-width: 15px;
+	font-size: 22px;
+	text-align: center;
+	border: 2px solid;
+	padding: 5px 10px 0;
+}
+
+.EditRec {
+	display: inline-block;
+	margin-left: 0;
+	margin-top: 0;
+	width: 130px;
+	min-height: 25px;
+	background-color: #B5CB5A;
+	color: #0F485C;
+	padding: 5px;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.EditRec:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+/* Стили для данных о абитурента*/
+span {
+	display: inline-block;
+	margin-top: 15px;
+	font-size: 20px;
+}
+
+.Person {
+	width: 200;
+	margin-left: 35%;
+	margin-top: 20px;
+	min-width: 140px;
+	height: 50px;
+	background-color: #B5751D;
+	opacity: 0.9;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.Person>a {
+	color: #fff;
+}
+
+.Person:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+/* Стили для кнопке с паролем*/
+.Pas {
+	margin-left: 130px;
+}
+
+/* Стили для блока со автором*/
+#Avtor {
+	margin: 20px 0;
+	text-align: center;
+}.Person>a {
+	color: #fff;
+}
+
+.Person:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+/* Стили для кнопке с паролем*/
+.Pas {
+	margin-left: 130px;
+}
+
+/* Стили для блока со автором*/
+#Avtor {
+	margin: 20px 0;
+	text-align: center;
+}

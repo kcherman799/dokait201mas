@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	background-color: #D8D8D8;
+}
+
+/* Общее стилы для всего документа */
+#Page {
+	min-height: 100%;
+	background-color: orange;
+	opacity: 0.9;
+	position: relative;
+}
+
+/* Стилы для главного блока */
+.mainBlock {
+	width: 500px;
+	height: 510px;
+	position: absolute;
+	top: 20%;
+	left: 33%;	
+}
+
+/* Стилы для логотипа */
+.mainBlock img {
+	width: 90px;
+	height: 90px;
+	margin-left: 40%;
+}
+
+/* Стилы для заголовки */
+.mainBlock h1 {
+	font-size: 22px;
+	margin-top: 15px;
+	text-align: center;
+}
+
+/* Стилы для блока с формой */
+.adminBlock {
+	border-radius: 20px;
+	width: 330px;
+	min-height: 240px;
+	background-color: #f7f7f7;
+	position: relative;
+	left: 20%;
+	margin-top: 20px;
+}
+
+/* Стилы для формы */
+form {
+	padding-top: 20px;
+	margin: 20px 40px;
+	font-size: 20px;
+	width: 280px;
+}
+
+/* Стилы для полей ввода формы */
+.inpunData {
+	width: 250px;
+	
+}
+
+/* Стилы для полей ввода формы при фокусе */
+.inpunData:focus {
+	background-color: aqua;
+}
+
+/* Стилы для надписы полей ввода */
+label {
+	text-align: center;
+}
+
+/* Стилы для кнопке формы */
+#mybutton {
+	margin-left: 25px;
+	min-width: 70px;
+	height: 30px;
+	border-radius: 2px;
+	background-color: olivedrab;
+	margin-bottom: 15px;
+	clear: both;
+}
+
+/* Стилы для ссылок */
+a {
+	display: block;
+	margin-top: 10px; 
+	margin-left: 20%;
+	color: blue;
+	text-decoration: none;
+	/*width: 110px;
+	border: 2px solid red;*/
+}
+
+/* Стилы для ссылок при наведение*/
+a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
